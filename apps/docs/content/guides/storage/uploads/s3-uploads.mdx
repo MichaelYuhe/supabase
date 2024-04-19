@@ -63,7 +63,7 @@ const upload = new Upload(s3Client, {
   Body: file,
 })
 
-await uploader.done()
+await upload.done()
 ```
 
 ### Aborting multipart uploads
